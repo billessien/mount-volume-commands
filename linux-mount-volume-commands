@@ -1,0 +1,20 @@
+fdisk -l
+clear
+fdisk -l
+mkfs.ext4 /dev/xvdf
+mkdir /shipservice
+mount /dev/xvdf /edureka/
+df -h
+cd /shipservice/
+clear
+ls -l
+df -h
+history
+   
+umount /shipservice 
+cd /
+umount /shipservice 
+df -h
+lsblk
+clear
+lsblk
